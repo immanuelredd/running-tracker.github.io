@@ -8,6 +8,7 @@ html {
 }
 
 body {
+    padding: 1rem;
     padding: 3rem;
     background: #1c262f;
     color: rgb(230, 225, 225);
@@ -19,6 +20,9 @@ body {
     text-align: center;
 }
 
+svg {
+    max-width: 80%;
+}
 form {
     text-align: center;
 }
@@ -34,6 +38,7 @@ input[type="number"] {
     margin: 1rem 0;
     padding: 0.8rem;
     outline: none;
+    border: none;
 }
 
 button {
@@ -54,12 +59,13 @@ ul {
     padding: 0;
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 li {
     border: 1px solid;
     padding: 1rem 1.5rem;
+    overflow: hidden;
 }
 
 .entriesWrapper {
@@ -71,6 +77,12 @@ li {
     margin: 0;
     text-align: center;
     font-weight: lighter;
+    font-size: 1.6rem;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
 }
 
 .data {
@@ -78,6 +90,26 @@ li {
 }
 
 .data div {
+    background: #141c22;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0;
+    padding: 0 1rem;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        width: 60%;
+    }
+
+    svg {
+        max-width: 50%;
+    }
+
+    input[type="number"] {
+        width: 40%;
+    }
     display: flex;
     background: #141c22;
     align-content: center;
