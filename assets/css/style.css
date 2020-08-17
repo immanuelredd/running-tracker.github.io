@@ -9,6 +9,7 @@ html {
 
 body {
     padding: 1rem;
+    padding: 3rem;
     background: #1c262f;
     color: rgb(230, 225, 225);
     width: 90%;
@@ -22,7 +23,6 @@ body {
 svg {
     max-width: 80%;
 }
-
 form {
     text-align: center;
 }
@@ -83,6 +83,9 @@ li {
 .data {
     display: flex;
     flex-direction: column;
+}
+
+.data {
     font-size: 1.4rem;
 }
 
@@ -107,4 +110,10 @@ li {
     input[type="number"] {
         width: 40%;
     }
+    display: flex;
+    background: #141c22;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    padding: 0 1rem;
 }
