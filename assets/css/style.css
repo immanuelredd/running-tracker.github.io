@@ -23,6 +23,7 @@ body {
 svg {
     max-width: 80%;
 }
+
 form {
     text-align: center;
 }
@@ -142,10 +143,4 @@ li {
     input[type="number"] {
         width: 40%;
     }
-    display: flex;
-    background: #141c22;
-    align-content: center;
-    justify-content: space-between;
-    margin: 0.5rem 0;
-    padding: 0 1rem;
 }
