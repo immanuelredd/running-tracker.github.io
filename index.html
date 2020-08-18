@@ -26,6 +26,10 @@
         <br>
         <input type="number" name="" id="entry" step="0.1">
         <br>
+        <label for="goalEntry">Weekly Goal</label>
+        <br>
+        <input type="number" id="goalEntry">
+        <br>
         <button type="submit">Add</button>
     </form>
 
@@ -50,7 +54,7 @@
         </div>
         <div>
             <p>Average distance: </p>
-            <span id="Average">0</span>
+            <span id="average">0</span>
         </div>
         <div>
             <p>The Weeks High:</p>
@@ -59,10 +63,12 @@
     </section>
     <section class="progress">
         <h3>
-            Weekly Target: <span id="progressTotal">0</span> /<span id="target">25</span>miles
+            Weekly Target: <span id="progressTotal">0</span> /<span id="target"></span>miles
         </h3>
         <div class="progressCircleWrapper">
-            <!--To do-->
+            <div id="progressCircle">
+                <div id="progressCenter"></div>
+            </div>
         </div>
     </section>
 
